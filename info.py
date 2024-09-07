@@ -22,9 +22,9 @@ USERNAME = environ.get('USERNAME', "https://telegram.me/chillxNow")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002150209155'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+kTcmHE5y-OczYTZl')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002221057263').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://trumbot:trumbot@cluster0.cfkaeno.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://keshavptdr98:aDUpB8AVsou9Xd1a@cluster0.3l8pofa.mongodb.net/?retryWrites=true&w=majority")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "DSXUNKNOWN")
+DATABASE_NAME = environ.get('DATABASE_NAME', "TELEGRAM_BOT_INFO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002223373105'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
