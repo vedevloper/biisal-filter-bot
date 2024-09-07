@@ -17,7 +17,7 @@ API_ID = int(environ.get('API_ID', '21723836'))
 API_HASH = environ.get('API_HASH', 'f755ab041ac9ab14ab0c25606dd92156')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7159758600:AAHsR6ygMahKvkrDQ44-11rofKb5uFh0HH4')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7052947046').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/chillxNow")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002150209155'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+kTcmHE5y-OczYTZl')
